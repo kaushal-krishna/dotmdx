@@ -9,15 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@next/mdx": "^15.2.0",
+    "ace-builds": "^1.39.0",
+    "easymde": "^2.19.0",
+    "framer-motion": "^12.4.7",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.476.0",
+    "next": "^15.2.0",
+    "next-mdx-remote": "^5.0.0",
     "react": "^19.0.0",
+    "react-ace": "^14.0.1",
     "react-dom": "^19.0.0",
-    "next": "15.2.0"
+    "react-simplemde-editor": "^5.2.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-rehype": "^11.1.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.2.0",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
